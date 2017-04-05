@@ -1,0 +1,55 @@
+			   ----------------------------------------------
+				|    MadeBy: Deepak Pandey					           |
+				|    EmailID: deepakpandey241990@gmail.com     |
+				|	 Created: 5th Jan, 2016  00:37:56(IST)	     |
+				 ----------------------------------------------
+Welcome to my repository. It is recommended that you go through this document first before using this repository. You can also find this document under "README" in every repository. Follow the workflow for a smooth work.
+
+For BASH users,
+
+---------------------------------------------------------------------------------------------------------------
+1) To pull my project, use
+git clone <URL>
+for example, git clone  https://github.com/deepakpandey241990/GitWorkflow.git , will pull this document for you.
+2) Once you have local copy, you can work offline on your PC.
+Commit initial downloaded repository without making any changes. You can commit using command , git commit -m "Your commit message"
+3) To make a new branch and checkout to that branch using, git checkout -n <branch_name>
+4) For making changes, add changes in the source files. Commit using the command as described in step 2. 
+5) Repeat 4 as many times you want to commit. 
+6) Checkout to master using command, git checkout master.
+7) Merge using command, git merge <branch_name>, while being on master branch.
+8) Commit changes using command described in step 2.
+9) Repeat steps 3-8 for creating branches and committing and meriging to master before pushing.
+10) Push to master using command, git push. If your branch is detached, you can push using, git push <url>.
+
+---------------------------------------------------------------------------------------------------------------
+
+Some other stuffs, 
+
+In case you wish to add file to project during development, you will have to add file to git using command, git add <filename>. If you want to add all files to git, use command, git add . (note the dot at the end, this add all files which are in the repository, incliuding the old files)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+For Tortoise git users,
+
+<Coming soon>
+1)  Right Click inside <ProjectName> folder and chose > Create repository. Right Click inside the folder, TortoiseGit>Pull . Enter the URL in ArbitraryURL section. Let it pull
+2) Right Click > Git Commit , Enter commit message in GUI
+3) Right Click > TortoiseGit > Create Branch. Name your branch. Checkout to the branch by right click > TortoiseGIT > Checkout. 
+4) Step 2, in case you make changes to repository files.
+5) Repeat 2 for multiple commits
+6) Right Click > TortoiseGit > Checkout  to master branch
+7) Right Click > TortoiseGit > Merge , chose branch you want to update master with
+8) Step 2. 
+9) Repeat 3-8 in case you want to add more before pushing.
+10) Right click > TortoiseGit > Push.
+
+---------------------------------------------------------------------------------------------------------------
+
+Some other stuffs, 
+
+In case you wish to add file to project during development, you will have to add file to git by right click > TortoiseGit > Add..
+Chose the files you want to add. 
+
+
+//EOF
